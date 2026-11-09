@@ -9,5 +9,5 @@ load_dotenv()
 
 
 GITHUB_URL = "https://www.github.com"
-TEST_EMAIL_GITHUB = os.getenv("TEST_USERNAME")
-TEST_PASSWORD_GITHUB = os.getenv("TEST_PASSWORD")
+TEST_EMAIL_GITHUB = os.getenv("TEST_EMAIL_GITHUB")
+TEST_PASSWORD_GITHUB = os.getenv("TEST_PASSWORD_GITHUB")
