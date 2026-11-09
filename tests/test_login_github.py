@@ -25,4 +25,3 @@ def test_sign_in_to_gmail(page: Page):
 
 
     expect(signInPage.signInButtonWithCredentials).to_be_enabled()
-    pass
