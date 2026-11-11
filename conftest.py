@@ -8,7 +8,7 @@ import pytest
 def driver():
     options = Options()
     ciEnv = os.getenv("CI")
-    if ciEnv=="True":
+    if ciEnv=="true":
         # CI runners have no display, so Chrome must run headless there.
         options.add_argument("--headless=new")
         options.add_argument("--no-sandbox")
